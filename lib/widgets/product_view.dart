@@ -19,7 +19,7 @@ class ProductView extends StatelessWidget {
           child: Container(
             color: context.backgroundColor,
             child: SizedBox(
-              height: 150,
+              height: 160,
               child: Row(children: [
                 Container(
                   color: context.canvasColor,

@@ -87,6 +87,13 @@ class _HomePageState extends State<HomePage> {
           : Center(
               child: CircularProgressIndicator(),
             ),
+      //     Container(
+      //   height: 100,
+      //   child: Container(
+      //     width: 160.0,
+      //     color: Colors.red,
+      //   ),
+      // ),
       drawer: MyDrawer(),
       floatingActionButton: Builder(builder: (context) {
         VxState.watch(context, on: [AddMutation, RemoveMutation]);
